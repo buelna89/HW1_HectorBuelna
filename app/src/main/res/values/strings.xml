@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HW1_HectorBuelna</string>
+    <string name="grades">Grades</string>
+    <string name="st_text">John Doe \nPhysics \nClass of 2024</string>
+    <string name="todo">TODO</string>
+    <string name="stu">STU</string>
+    <string name="welcometxt">You are in Grades Activity</string>
+    <string name="grade_input">Enter Your Grade</string>
+    <string name="show_grade">Show Grade</string>
+    <string name="coupons">Coupons</string>
+    <string name="generate">Generate</string>
+    <string name="fnamec">Name</string>
+    <string name="lnamec">Email</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter e-mail</string>
+    <string name="ctextview">TextView</string>
+</resources>
