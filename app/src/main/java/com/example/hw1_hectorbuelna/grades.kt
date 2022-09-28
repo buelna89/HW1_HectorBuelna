@@ -31,6 +31,7 @@ class grades : AppCompatActivity() {
                             display.text = "Your Grade is a D"
                         } else {
                             display.text = "Your Grade is an F"
+                            //this is just to see if it lets me commit back to the repo
                         }
                     }
                 }
