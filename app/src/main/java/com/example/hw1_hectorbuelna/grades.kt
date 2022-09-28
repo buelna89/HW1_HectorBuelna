@@ -17,27 +17,35 @@ class grades : AppCompatActivity() {
         {
             val myGrade = findViewById<EditText>(R.id.editTextTextPersonName).text.toString()
             val display = findViewById<TextView>(R.id.textView2)
-            if (myGrade >= "90") {
+            if (myGrade > "94") {
                 display.text = "Your Grade is a A"
             } else {
-                if (myGrade >= "80" && myGrade <= "89") {
-                    display.text = "Your Grade is a B"
-                }
-                else {
-                    if (myGrade >= "70" && myGrade <= "79") {
-                        display.text = "Your Grade is a C"
+                if (myGrade >= "90" && myGrade <= "94") {
+                    display.text = "Your Grade is a A-"
+                } else {
+                    if (myGrade >= "87" && myGrade < "90") {
+                        display.text = "Your Grade is a B+"
                     } else {
-                        if (myGrade >= "60" && myGrade <= "69") {
-                            display.text = "Your Grade is a D"
+                        if (myGrade >= "83" && myGrade < "87") {
+                            display.text = "Your Grade is a B"
+                        } else if (myGrade >= "80" && myGrade < "83") {
+                            display.text = "Your Grade is a B-"
+                        } else if (myGrade >= "77" && myGrade < "80") {
+                            display.text = "Your Grade is a C+"
                         } else {
-                            display.text = "Your Grade is an F"
-                            //this is just to see if it lets me commit back to the repo
+                            if (myGrade >= "73" && myGrade < "77"){
+                                display.text = "Your Grade is a C"
+                        }else if (myGrade >= "70" && myGrade < "73") {
+                                display.text = "Your Grade is a C-"
+                        } else if (myGrade < "70") {
+                                display.text = "Your Grade is a F"
+                        }
                         }
                     }
+
                 }
+
             }
-
         }
-
     }
 }
