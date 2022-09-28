@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.cButton).setOnClickListener{
-                startActivity(Intent(this, Coupons::class.java))
+                startActivity(Intent(this, coupons::class.java))
             }
 
     }
